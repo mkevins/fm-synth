@@ -1,0 +1,35 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div.tone-box {
+  display: inline-block;
+  position: absolute;
+  margin: 3px;
+  padding: 15px;
+  width: 64px;
+  height: 64px;
+  border-radius: 15px;
+  background-color: rgba(124,252,0,0.3);
+  box-shadow: inset 0 0 15px green;
+}
+
+.column {
+	float: left;
+	width: 7.142857143%;
+	height: 100%;
+}
+
+.instructions {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: white;
+	text-shadow: black 0 0 0.5em, black 0 0 0.25em;
+}
